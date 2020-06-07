@@ -9,7 +9,7 @@ void test_parse_tree();
  * --------------------------------------
  * With the current implementation
  * any keywords (e.g. SELECT, AND, FROM)
- * used for column and table names will
+ * used for column and table names
  * will return an error (empty PTree)
  * when parsed.
  *
@@ -25,8 +25,6 @@ void test_parse_tree();
  * build_state_array() in the
  * ParseCommand class.
  *
- * Note: I haven't had time to test
- * this fix. Good Luck!
  * --------------------------------------*/
 
 int main(int argc, char *argv[])
